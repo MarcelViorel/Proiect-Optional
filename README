@@ -1,0 +1,28 @@
+Zamfirescu Denis - Proiect PCLP3
+
+	Proiectul este reprezentat de un program de reprezentare a fractalilor.
+La rulare utilizatorul este intampinat de un meniu ce ii afiseaza posibilitatile
+de afisare. Depa alegerea unui fractal este rugat sa introduca un numar de
+iteratii. Datorita bibliotecii "graphics.h" se va deschide o fereastra unde se
+va rula un cod pentru afisarea fractalului respectiv. Dupa afisarea unui pas,
+se va apasa un input de la tastatura(orice tasta) pentru a afisa pasul urmator.
+	Verificarea comenzii introduse de la tastatura se foloseste de alocare
+dinamica si de functia strtok pentru a verifica numarul de cuvinte diferite
+introduse. Daca acesta este mai mare de 1, inseamna ca comanda este invalida,
+intrucat numarul de iteratii nu este trimis ca parametru.
+	Fractalii folosesc apeluri recursive(Divide et Impera) pentru a fi
+creati.
+	
+	--Libraria "X11/Xlib.h" a fost folosita pentru rezolvarea unor probleme
+legate de numar de thread-uri, insa incercarile mele esueaza uneori--
+	--Programul putea fi inbunatatit prin folosirea functiei strtok pentru
+a permite trimiterea numarului de iteratii ale fractalului ca parametru.
+Deasemenea, in fiecare conditie de tipul "if" pentru alegerea comenzii se
+declara si se citeste variabila order. Repetitiile acestei secventei de cod
+putea fi evitata cu o functie de citire--
+
+	Link spre git-ul proiectului: 
+	
+	-> https://github.com/MarcelViorel/Proiect-Optional
+	
+	Pentru compilarea codului trebuiesc folosite flagurile -lgraph -lm -lX11
