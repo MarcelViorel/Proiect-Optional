@@ -1,3 +1,3 @@
 # Proiect-Optional
 
-Momentan este golut pe aici
+Proiectul meu pentru Programare si Limbaje de Programare 3. Pentru mai multe detalii consultati fisierul README.
